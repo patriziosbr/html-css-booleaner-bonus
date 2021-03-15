@@ -1,0 +1,87 @@
+
+/*formattazione testi*/
+h1{
+    font-size: 42px;
+}
+.p-small{
+    font-size: 14px;
+}
+h5{
+    color: #818181;
+}
+h4{
+    color: #ffffff;
+    font-size: 24px;
+    padding: 16px 16px; /*non ho resistito*/
+}
+/*/formattazione testi*/
+
+.container{
+    width: 1200px; /*bonus*/
+    margin: auto; /*bonus*/
+}
+/*articolo*/
+header{
+    height: 100px;
+    background-color: #4EA0FF;
+}
+.bg-top{
+    height: 100%;
+    background-image: url("img/pattern.png");
+    background-size: 40%;
+}
+#logo{
+    height: 100%;
+    background-image: url("img/logo.svg");
+    background-position: 85px 50px; /*bonus*/
+    background-repeat: no-repeat;
+    background-size: 15%;
+}
+#color-cyan{
+    color: #20A9E5;
+}
+#bg-yellow{
+    background-color: #FFFF00;
+}
+/*end articolo*/
+
+/*start tabella*/
+table{
+    width: 100%;
+}
+thead{
+    background-color: #20A9E5;
+    color: #ffffff;
+}
+.bg-table{
+    background-color: #B1E5F2;
+}
+th.column{
+    width: 300px;
+    text-align: left;
+}
+/*end tabella*/
+
+/*footer*/
+.img-viola{
+    width: 270px;
+    height: 200px;
+    background-image: url("img/monitor.jpg");
+}
+.img-red{
+    width: 270px;
+    height: 200px;
+    background-image: url("img/graph.jpg");
+}
+/*end footer*/
+
+/*start bonus*/
+main{
+    width: 85%;
+    margin: auto;
+}
+footer{
+    width: 85%;
+    margin: auto;
+}
+/*end bonus*/
